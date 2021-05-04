@@ -18,13 +18,13 @@ if(Wall.x-Car.x < (Car.width=Wall.width)/2) {
     Car.velocityX = 0;
     Deformation = 0.5 * Weight * Speed * Speed/22500;
     if (Deformation > 180){
-        Car.shapeColor = colour(225, 0, 0);
+        Car.shapeColor = color(225, 0, 0);
     }
      if (Deformation < 180 && Deformation > 100) {
-        Car.shapeColor = colour(230, 230, 0);
+        Car.shapeColor = color(230, 230, 0);
     }
     if (Deformation < 100){
-        Car.shapeColor = colour(0, 255, 0);
+        Car.shapeColor = color(0, 255, 0);
     }
  
 }
